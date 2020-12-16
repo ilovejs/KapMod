@@ -7,20 +7,24 @@
       <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="XO code style">
     </a>
   </p>
-  <p>
-    Based on Kap3.3.2 - 10th Sep 2020<br>
-    <a alt="Aperture" href="https://github.com/wulkano/Aperture">Aperture is a swift lib for MacOs</a>
-  </p>
 </p>
 
 ## Is this mod working ?
 
-Yep, os: big sur
-Copy Kap.app to Application !!
-
+Yep
+  OS: big sur
+  Based on Kap3.3.2 - 10th Sep 2020
+  [Aperture is a swift lib for MacOs](https://github.com/wulkano/Aperture)
+ 
 Step:
   read `How to build` section
+  especially, Copy Kap.app to Application.
   fix issue like `issue` section
+
+## Why ?
+
+Kap is open source screen recording app on Mac. I made a default path so no export waiting time.
+Aperture is a swift lib for MacOs. Kap use it as binary and js-binding. We optimized parameter per se.
 
 ## Get original Kap to learn GUI
 
