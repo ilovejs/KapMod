@@ -13,7 +13,16 @@
   </p>
 </p>
 
-## Get Kap
+## Is this mod working ?
+
+Yep, os: big sur
+Copy Kap.app to Application !!
+
+Step:
+  read `How to build` section
+  fix issue like `issue` section
+
+## Get original Kap to learn GUI
 
 **[Download the latest release](https://kap.now.sh/api)** (macOS only)
 
@@ -22,10 +31,6 @@ Or install with [Homebrew-Cask](https://caskroom.github.io):
 ```
 $ brew install --cask kap
 ```
-
-## Contribute
-
-Read the [contribution guide](contributing.md).
 
 ## Plugins
 
@@ -71,17 +76,42 @@ Making sure Intelij IDE is used for developing. Since vscode would quit after ru
 
 `bash build.sh`
 
+Copy Kap.app to Application !!
+
 ### TODO:
 
 tempy is still used by recording-history and convert
 
 we can further extend !!
 
-[2] CICD
+[1] CICD
 
 https://circleci.com/
 
 appcenter
 
+### Issue fix log
+
+[1] spawn error ENMOT
+
+```md
+Recording error after setCurrentRecording()
+Error: Command failed with ENOENT: /Applications/Kap.app/Contents/Resources/app.asar.unpacked/main/utils/aperture/aperture {"destination":"file:///Users/mike/Movies/Kaptures/a3d6294fb5fae827b4a5a45723412b18.mp4","framesPerSecond":30,"showCursor":false,"highlightClicks":false,"screenId":69733632,"audioDeviceId":"AppleHDAEngineInput:1F,3,0,1,0:1","cropRect":[[419,379],[227,209]]}
+spawn /Applications/Kap.app/Contents/Resources/app.asar.unpacked/main/utils/aperture/aperture ENOENT
+```
+
+Again, this is `spawn` issue,
+
+* Quick Fix:
+
+U can create subfolder `main/utils/aperture/` and copy binary `aperture` there.
+
+Binary is available after install from yarn, visit node_modules/aperture ...
+
+* Proper Solution: Need to publish `aperture` as separated npm package
+
+like others:
+Kap.app/Contents/Resource/app.asar.unpacked/node_modules:
+  file-icon
 
 
