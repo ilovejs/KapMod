@@ -15,19 +15,21 @@ Yep
   OS: big sur
   Based on Kap3.3.2 - 10th Sep 2020
   [Aperture is a swift lib for MacOs](https://github.com/wulkano/Aperture)
- 
+
 Step:
-  read `How to build` section
-  especially, Copy Kap.app to Application.
-  fix issue like `issue` section
+  - Read `How to build` section
+
+  - Especially, Copy Kap.app to Application
+
+  - Fix issues in [issues](https://github.com/ilovejs/KapMod/blob/main/README.md#issue-fix-log) section
 
 ## Motivation - WHY ?
 
-Kap is open source screen recording app on Mac. 
+Kap is open source screen recording app on Mac.
 
 I made a default path so no export waiting time.
 
-Aperture is a swift lib for MacOs. Kap use it as binary and js-binding. 
+Aperture is a swift lib for MacOs. Kap use it as binary and js-binding.
 
 We optimized parameter per se.
 
