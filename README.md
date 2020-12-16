@@ -11,9 +11,12 @@
 
 ## Is this mod working ?
 
-Yep
+Yep !!
+
   OS: big sur
-  Based on Kap3.3.2 - 10th Sep 2020
+  
+  Fork from Kap3.3.2 - 10th Sep 2020
+  
   [Aperture is a swift lib for MacOs](https://github.com/wulkano/Aperture)
 
 Step:
