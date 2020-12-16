@@ -1,8 +1,16 @@
 <p align="center">
   <img src="https://getkap.co/static/favicon/kap.svg" height="64">
-  <h3 align="center">Kap</h3>
-  <p align="center">A``n open-source screen recorder built with web technology<p>
-  <p align="center"><a href="https://circleci.com/gh/wulkano/kap"><img src="https://circleci.com/gh/wulkano/kap.svg?style=shield" alt="Build Status"></a> <a href="https://github.com/sindresorhus/xo"><img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="XO code style"></a></p>
+  <h3 align="center">KapMod</h3>
+  <p align="center">An open-source screen recorder built with web technology</p>
+  <p align="center"><a href="https://circleci.com/gh/wulkano/kap">
+    <a href="https://github.com/sindresorhus/xo">
+      <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="XO code style">
+    </a>
+  </p>
+  <p>
+    Based on Kap3.3.2 - 10th Sep 2020<br>
+    <a alt="Aperture" href="https://github.com/wulkano/Aperture">Aperture is a swift lib for MacOs</a>
+  </p>
 </p>
 
 ## Get Kap
@@ -68,4 +76,12 @@ Making sure Intelij IDE is used for developing. Since vscode would quit after ru
 tempy is still used by recording-history and convert
 
 we can further extend !!
+
+[2] CICD
+
+https://circleci.com/
+
+appcenter
+
+
 
