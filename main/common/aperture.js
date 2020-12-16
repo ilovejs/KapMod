@@ -1,6 +1,7 @@
 'use strict';
 
-const createAperture = require('aperture');
+// require('aperture')
+const createAperture = require("../utils/aperture");
 
 const {openEditorWindow} = require('../editor');
 const {closePrefsWindow} = require('../preferences');
@@ -147,8 +148,13 @@ const startRecording = async options => {
 
   await callPlugins('willStartRecording');
 
+  console.log("callPlugins");
+
   try {
     const filePath = await aperture.startRecording(apertureOptions);
+    console.log("startRecording() is done")
+    console.log("filePath: ", filePath);
+    console.log("Run setCurrentRecording()")
 
     setCurrentRecording({
       filePath,
@@ -156,9 +162,16 @@ const startRecording = async options => {
       apertureOptions,
       editPlugins: serializeEditPluginState()
     });
+
+    console.log("setCurrentRecording is ok");
+
   } catch (error) {
     track('recording/stopped/error');
-    showError(error, {title: 'Recording error'});
+
+    showError(error, {title: 'Recording error after setCurrentRecording()'});
+
+    console.log("error", error)
+
     past = null;
     cleanup();
     return;

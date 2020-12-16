@@ -1,7 +1,9 @@
 'use strict';
 
 const audioDevices = require('macos-audio-devices');
-const aperture = require('aperture');
+
+// const aperture = require('aperture');
+const aperture = require('./aperture')
 
 const {showError} = require('./errors');
 const {hasMicrophoneAccess} = require('../common/system-permissions');

@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://getkap.co/static/favicon/kap.svg" height="64">
   <h3 align="center">Kap</h3>
-  <p align="center">An open-source screen recorder built with web technology<p>
+  <p align="center">A``n open-source screen recorder built with web technology<p>
   <p align="center"><a href="https://circleci.com/gh/wulkano/kap"><img src="https://circleci.com/gh/wulkano/kap.svg?style=shield" alt="Build Status"></a> <a href="https://github.com/sindresorhus/xo"><img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="XO code style"></a></p>
 </p>
 
@@ -42,3 +42,30 @@ Download [`master`](https://kap-artifacts.now.sh/master) or builds for any other
 - [● CircleCI](https://circleci.com/) for supporting the open source community and making our builds fast and reliable.
 - [△ Sentry](https://sentry.io/) for letting us know when Kap isn't behaving and helping us eradicate said behaviour.
 - Our [contributors](https://github.com/wulkano/kap/contributors) who help maintain Kap and make screen recording and sharing easy.
+
+## New binding for aperture
+
+Looking at the aperture inside `main`, I put a executable file and index.js for module config.
+
+Files:
+  index.js
+  main/with reference by aperture.js
+  device.js
+
+```
+yarn remove aperture
+yarn add -D file-url
+```
+
+Making sure Intelij IDE is used for developing. Since vscode would quit after run, so as from CLI . Bash.
+
+### How to build
+
+`bash build.sh`
+
+### TODO:
+
+tempy is still used by recording-history and convert
+
+we can further extend !!
+

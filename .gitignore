@@ -1,5 +1,7 @@
 node_modules
-/renderer/out
-/renderer/.next
 /app/dist
 /dist
+# mz added in
+/renderer/.next
+/renderer/out
+.idea
