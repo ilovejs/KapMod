@@ -40,7 +40,7 @@ Upstream Kap's issue:
 - Aperture is a swift lib for MacOs. Kap use it as binary and js-binding.
   We can optimized parameter as practice.
   
-- WHY NOT ?
+### WHY NOT ?
 
 [Upper souce library no API for Pause Recording](https://github.com/wulkano/aperture-node/issues/5)
 
