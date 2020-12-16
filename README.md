@@ -21,10 +21,15 @@ Step:
   especially, Copy Kap.app to Application.
   fix issue like `issue` section
 
-## Why ?
+## Motivation - WHY ?
 
-Kap is open source screen recording app on Mac. I made a default path so no export waiting time.
-Aperture is a swift lib for MacOs. Kap use it as binary and js-binding. We optimized parameter per se.
+Kap is open source screen recording app on Mac. 
+
+I made a default path so no export waiting time.
+
+Aperture is a swift lib for MacOs. Kap use it as binary and js-binding. 
+
+We optimized parameter per se.
 
 ## Get original Kap to learn GUI
 
