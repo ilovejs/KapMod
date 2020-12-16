@@ -9,32 +9,43 @@
   </p>
 </p>
 
-## Is this mod working ?
+### Is this mod working ?
 
-Yep !!
+Yep !! But his is a modification on top of Kap. Make sure you like it first, then you can make your own functions :)
 
   OS: big sur
   
   Fork from Kap3.3.2 - 10th Sep 2020
   
   [Aperture is a swift lib for MacOs](https://github.com/wulkano/Aperture)
+  
+Upstream Kap's issue:
 
-Step:
+[Can not pause](https://github.com/wulkano/aperture-node/issues/5)
+
+### Instalation Steps:
+
   - Read `How to build` section
 
   - Especially, Copy Kap.app to Application
 
   - Fix issues in [issues](https://github.com/ilovejs/KapMod/blob/main/README.md#issue-fix-log) section
 
-## Motivation - WHY ?
+### Motivation - WHY ?
 
-Kap is open source screen recording app on Mac.
+- Kap is open source screen recording app on Mac. It's elegant. I want to make use of its UI (Electron)
 
-I made a default path so no export waiting time.
+- I made a default path so no Export waiting time. No convertion when export.
 
-Aperture is a swift lib for MacOs. Kap use it as binary and js-binding.
+- Aperture is a swift lib for MacOs. Kap use it as binary and js-binding.
+  We can optimized parameter as practice.
+  
+- WHY NOT ?
 
-We optimized parameter per se.
+[Upper souce library no API for Pause Recording](https://github.com/wulkano/aperture-node/issues/5)
+
+Require swift skills & time..
+
 
 ## Get original Kap to learn GUI
 
