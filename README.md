@@ -33,12 +33,25 @@ Upstream Kap's issue:
 
 ### Motivation - WHY ?
 
+- Low CPU Fan RPM ! 
+
+  Normally, recording in Chrome + Movavi (for example) bump 2/4 CPU to 80%... Fan burst to max level.
+  
+  With Kap + Safari, you can spend less energy and CPU cycle to record video. say 15mins, the fan slightly pick up at low-middle rpm.
+  
+  Try to show Fan RPM and CPU temperature:
+  
+  `sudo powermetrics --samplers smc`
+  `$ sudo powermetrics --samplers smc |grep -i "CPU die temperature"`
+
 - Kap is open source screen recording app on Mac. It's elegant. I want to make use of its UI (Electron)
 
 - I made a default path so no Export waiting time. No convertion when export.
 
 - Aperture is a swift lib for MacOs. Kap use it as binary and js-binding.
   We can optimized parameter as practice.
+  
+  2k - 4k rpm, 50 degree (+20 room temperature)
   
 ### WHY NOT ?
 
