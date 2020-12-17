@@ -40,9 +40,10 @@ Upstream Kap's issue:
   With Kap + Safari, you can spend less energy and CPU cycle to record video. say 15mins, the fan slightly pick up at low-middle rpm.
   
   Try to show Fan RPM and CPU temperature:
-  
-  `sudo powermetrics --samplers smc`
-  `$ sudo powermetrics --samplers smc |grep -i "CPU die temperature"`
+  ```
+  $ sudo powermetrics --samplers smc
+  $ sudo powermetrics --samplers smc |grep -i "CPU die temperature"
+  ```
 
 - Kap is open source screen recording app on Mac. It's elegant. I want to make use of its UI (Electron)
 
